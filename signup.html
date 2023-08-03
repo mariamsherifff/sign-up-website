@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign page</title>
+</head>
+<body >
+    <div   class=" layer   my-5  mx-auto p-5">
+        <h1 class=" text-center">Smart Login  System</h1>
+        <div class="form">
+           <input type="text" class="form-control w-75 mx-auto my-4" placeholder="enter your name" value=""  id="nameSign">
+           
+           <input type="email" class="form-control w-75 mx-auto my-4" placeholder="Enter Your Email" value=""  id="emailSign">
+           
+           <input type="password" class="form-control w-75 mx-auto my-4" placeholder="Enter Your Password" value=""  id="PassSign">
+        </div>
+        <div id="alertName" class="alert text-danger text-center d-none p-0  ">
+             Exist already
+         </div>
+         <div id="alertsuccess" class="alert text-success  d-none   text-center p-0">
+               success
+               </div>
+               <div id="alerteamail" class="alert text-danger text-center d-none p-0  ">
+                right correct  email 
+            </div>
+               <div class="button text-center my-5">
+
+    <button class=" btn btn-outline-info w-75" id="signUp"  >Sign Up</button>
+               </div>
+               <div  class="text-center "><a href="index.html"class=" link-info">log in</a></div>
+              
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
